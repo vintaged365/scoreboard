@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(38, 38, 94);
+    padding: 10px 0 50px 0;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+#home-score{
+    font-family: 'MyFont';
+    font-size: 100px;
+    color: rgb(74, 23, 56);
+    background-color: black;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+
+}
+
+#guest-score{
+    font-family: 'MyFont';
+    font-size: 100px;
+    color: rgb(74, 23, 56);
+    background-color: black;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+
+}
+
+button{
+    color: white;
+    background-color: rgb(38, 38, 94);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px light white;
+    cursor: pointer;
+}
+
+@font-face{
+    font-family: 'MyFont';
+    src: url(/ds_digital/DS-DIGIT.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
