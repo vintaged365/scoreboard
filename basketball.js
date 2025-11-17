@@ -1,4 +1,4 @@
-/*let countEl = document.getElementById("home-score");
+let countEl = document.getElementById("home-score");
 let countEl1 = document.getElementById("guest-score");
 
 let count = 0;
